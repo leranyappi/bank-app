@@ -269,7 +269,7 @@ btnTransfer.addEventListener("click", function (e) {
     inputTransferTo.value = inputTransferAmount.value = "";
     updateUI(currentAccount);
   } else {
-    alert("Ошибка! Введите корректную сумму.");
+    alert("Ошибка! Введите корректные данные.");
   }
 });
 
